@@ -23,16 +23,16 @@ int connectToOneNetMqtt();
 
 //常量
 #define VER             "MQTT_LED_V1.0"
-const char* ssid = "TP-LINK_5344";//wifi账号
-const char* password = "6206908you11011010";//wifi秘密
+const char* ssid = "Mr.right";//wifi账号
+const char* password = "12345678";//wifi秘密
 
 //OneNet相关
 PubSubClient mqttClient;
 const char* mqttServer = "183.230.40.39";//mqtt服务器
 const uint16_t mqttPort = 6002;
-#define PRODUCT_ID    "253190" //此为博哥自己的产品id 请新建自己的
-#define API_KEY    "aat9ivuJls3gcAFWnLoxfbwW8bI="
-#define DEVICE_ID "531724506"
+#define PRODUCT_ID    "325416" //此为博哥自己的产品id 请新建自己的
+#define API_KEY    "KzbMoU9sNR8X=YAY5O=vMMJANCk=="
+#define DEVICE_ID "587667889"
 #define TOPIC     "esp8266led"
 
 unsigned long lastWiFiCheckTick = 0;
